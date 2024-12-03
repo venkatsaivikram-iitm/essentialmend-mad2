@@ -1,0 +1,32 @@
+{
+  "name": "essential-mend",
+  "version": "1.0.0",
+  "description": "EssentialMend",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "keywords": [
+    "essentialmend"
+  ],
+  "author": "Venkat Sai Vikram",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "pinia": "^2.2.4",
+    "vue": "^3.5.11",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.1",
+    "vue-loader": "^17.4.2",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
